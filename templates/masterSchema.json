@@ -1,0 +1,9 @@
+{
+  "num_rows": 100,
+  "file_format": "{{ file_format }}",
+  "name": "{{ database_table_name }}",
+  "include_header": {{ header_flag }},
+  "columns": [
+      {{ columns_schema }}
+  ]
+}

@@ -1,0 +1,9 @@
+    {
+      "name": "{{ field_name }}",
+      "null_percentage": 0,
+      "type": "Date",
+      "min": "12/17/2000",
+      "max": "12/16/2018",
+      "format": "%Y-%m-%d %H:%M:%S",
+      "formula": "this.strftime(\"%d/%m/%Y %H:%M:%S\")"
+    }
